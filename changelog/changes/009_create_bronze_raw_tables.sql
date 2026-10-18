@@ -17,5 +17,9 @@ CREATE TABLE workspace.bronze.products_raw (
 )
 USING DELTA;
 
+
+
+
+
 --rollback DROP TABLE IF EXISTS workspace.bronze.products_raw;
 --rollback DROP TABLE IF EXISTS workspace.bronze.sales_raw;
