@@ -4,6 +4,6 @@ databaseChangeLog:
   - include:
       file: changelog/changes/009_create_bronze_raw_tables.sql
   - include:
-      file: changelog/010_create_customers_raw.sql
+      file: changelog/changes/010_create_customers_raw.sql
   - include:
-      file: changelog/011_create_stores_raw.sql
+      file: changelog/changes/011_create_stores_raw.sql
