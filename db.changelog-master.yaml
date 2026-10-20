@@ -7,3 +7,5 @@ databaseChangeLog:
       file: changelog/changes/010_create_customers_raw.sql
   - include:
       file: changelog/changes/011_create_stores_raw.sql
+  - include:
+      file: changelog/changes/012_add_customer_store_to_sales.sql
